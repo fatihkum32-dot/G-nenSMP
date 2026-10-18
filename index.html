@@ -1,1 +1,56 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gönen SMP</title>
+    <style>
+        body {
+            background: #101820;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        h1 {
+            color: #00e5a0;
+            font-size: 45px;
+        }
+        p {
+            font-size: 20px;
+        }
+        button {
+            background: #00e5a0;
+            color: #101820;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #00c98b;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>GÖNEN SMP</h1>
+    <p>🌍 Macera seni bekliyor!</p>
+    <p>Arkadaşlarınla birlikte oyna!</p>
+
+    <h2>Sunucu IP Adresi</h2>
+    <p id="ip">gonensmp.aternos.me</p>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('ip').innerText).then(() => this.innerText = 'Kopyalandı!')">
+        IP'Yİ KOPYALA
+    </button>
+
+    <p>🎮 Minecraft SMP Sunucusu</p>
+    <p>İyi oyunlar!</p>
+
+</body>
+</html>
+
